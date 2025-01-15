@@ -16,8 +16,8 @@ def send_to_telegram(message, token, chat_id):
     response = requests.post(url, data=payload)
     return response.status_code == 200
 
-TOKEN = "7319217799:AAFMm4wsA24r54DdgI2f86zgLcGaWp6uY3k"
-CHAT_ID = "5839321572"
+TOKEN = "7934567810:AAGDN5sCsrPpISWOqVMQcUhd94PhZeINQu4"
+CHAT_ID = "6446897385"
 
 def format_rupiah(amount):
     return f"Profit -> Rp{amount * 1000:,}".replace(",", ".")
@@ -35,7 +35,7 @@ def mainsec():
    ░    ░    ░  ░ ░ ░ ▒   ░    ░ ░ ░ ░ ▒    ░      
    ░  ░ ░    ░      ░ ░   ░          ░ ░           
                                ░                   
-Command Line Interface Rekap - By Avoix88          
+Command Line Interface Rekap - By FxyySateboy          
 ''' + Fore.RESET) 
 
     print(Fore.RED + "[" + Fore.WHITE + "+" + Fore.RED + "]" + Fore.WHITE + " 1. Total Profit" + Fore.RESET)
